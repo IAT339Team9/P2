@@ -1,0 +1,401 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+
+body {
+  font-family: "Louis George Cafe", Verdana, sans-serif;
+  padding: 2rem;
+  background: rgba(255,240,245, 0.5);
+}
+
+div{
+  padding: 5px;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h1 {
+  font-family: "Flowerbust-Regular", Verdana, sans-serif;
+  color:rgb(186, 58, 85);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12vw;
+}
+
+
+h2 {
+  font-family: "Flowerbust-Regular", Verdana, sans-serif;
+  font-size: 1.8rem;
+  color:rgba(186, 58, 85, 0.7);
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+}
+
+p, ol, ul {
+  max-width: 55rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+
+.listing{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+  text-align: center;
+}
+
+img {
+  height: 400;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: rgb(125, 125, 125);
+}
+
+section {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  color: rgb(144, 53, 56);
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+a:active, a:hover, a:focus {
+  color: rgb(153,123,119);
+  text-decoration: none;
+  opacity: 0.4;
+}
+
+code, samp {
+  display: block;
+  background-color: rgb(230,230,230);
+  padding: 0.5rem;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.nav-main-item {
+  display: inline-block;
+	color: rgb(205,92,92);
+	background-color: rgb(255,228,225);
+	font-size: 1.3rem;
+	text-align: center;
+
+  margin-top: 0.4rem;
+	margin-right: 1rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+
+	/* Code from https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius*/
+	border-radius: 10px 100px / 120px;
+
+	padding: 1rem 1rem;
+	text-decoration: none;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+}
+
+.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+	color: rgb(255,228,225);
+	background-color: rgb(205,92,92);
+}
+
+
+textarea{
+	height: 5rem;
+}
+
+
+
+.btn {
+  background-color:rgb(205,92,92);
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.checkout_btn {
+  background-color:rgb(205,92,92);
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 3rem;
+}
+
+.checkout_btn:hover {
+  background-color: rgb(247, 185, 178);
+}
+
+.Checkout-button {
+  position: relative;
+  left:50em;
+  display: inline-block;
+  padding: 1rem;
+  color: white;
+  background-color: rgb(205,92,92);
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border: 1px solid white;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.Checkout-button:hover, .Checkout-button:focus {
+  color: white;
+    background-color: rgb(247, 185, 178);
+}
+
+span.price {
+  float: right;
+  color: rgb(205,92,92);
+
+}
+
+.Cart-Summary-Guid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-bottom: 0.15rem solid #ecf2ff;
+  margin: 1rem 4rem 1rem 4rem;
+}
+
+.Cart-Summary1-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-bottom: 0.15rem solid #ecf2ff;
+  margin: 1rem 4rem 1rem 4rem;
+}
+
+.Product-div {
+  text-align: center;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.Price-div{
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.Quantity-div {
+  grid-area: 1 / 5 / 2 / 6;
+}
+
+.Total-Price-div{
+  grid-area: 1 / 6 / 2 / 7;
+}
+
+.Product-Detail-div {
+  grid-area: 1 / 0.5 / 2 / 3;
+}
+
+.Product-Detail-div img {
+  margin-left: 2rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+
+}
+
+.Product-info-div {
+  grid-area: 1/2/2/4;
+  margin-left: 1rem;
+}
+
+.Price-Detail-div {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.Quantity-Detail-div {
+  margin-left: 2rem;
+  grid-area: 1 / 5 / 2 / 6;
+}
+
+.Total-Detail-div {
+  margin-left: 2rem;
+  grid-area: 1 / 6 / 2 / 7;
+}
+
+.Subtotal-Grid {
+  display: grid;
+  grid-template-columns: 0.175fr 0.175fr 0.175fr 0.175fr 0.175fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-bottom: 0.15rem solid #ecf2ff;
+  margin: 1rem 4rem 1rem 4rem;
+}
+
+.Subtotal-Text-div {
+  grid-area: 1 / 5 / 2 / 6;
+}
+
+.Shipping-Fee-Text-div {
+  grid-area: 2 / 5 / 3 / 6;
+}
+
+.Tax-Text-div {
+  grid-area: 3 / 5 / 4 / 6;
+}
+
+.Subtotal-Price-div {
+  grid-area: 1 / 6 / 2 / 7;
+}
+
+.Shipping-Price-div {
+  grid-area: 2 / 6 / 3 / 7;
+}
+
+.Tax-Price-div {
+  grid-area: 3 / 6 / 4 / 7;
+}
+
+.Subtotal-Price-div p{
+  position: relative;
+ left:22px;
+}
+
+.Shipping-Price-div p{
+  position: relative;
+ left:22px;
+}
+.Tax-Price-div p{
+  position: relative;
+ left:22px;
+}
+
+.Total-Grid {
+  display: grid;
+  grid-template-columns: 0.175fr 0.175fr 0.175fr 0.175fr 0.175fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: .5rem 4rem -10rem 4rem;
+}
+
+.Total-Text-div {
+  grid-area: 1 / 5 / 2 / 6;
+}
+.Total-Price-div {
+  grid-area: 1 / 6 / 2 / 7;
+}
+
+.Total-Price-div p{
+  position: relative;
+ left:22px;
+}
+
+
+/* Code from https://www.w3schools.com/howto/howto_css_contact_form.asp */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* submit button with a specific background color */
+input[type=submit] {
+  background-color: rgb(205,92,92);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, darker color is appear */
+input[type=submit]:hover {
+  background-color: rgb(178,34,34);
+}
+
+/*  submit button with a specific background color */
+input[type=reset] {
+  background-color: rgb(183,157,162);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, darker color is appear */
+input[type=reset]:hover {
+  background-color: rgb(150, 140, 142);
+}
+
+
+
+
+/* Responsive layout */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/

@@ -1,0 +1,15 @@
+/*This font is from https://www.dafont.com/flowerbust.font.*/
+@font-face {
+	font-family: 'Flowerbust-Regular';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Flowerbust-Regular.ttf') format('truetype');
+}
+
+/*https://www.dafont.com/louis-george-caf.font*/
+@font-face {
+	font-family: 'Louis George Cafe';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Louis George Cafe.ttf') format('truetype');
+}
