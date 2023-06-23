@@ -390,6 +390,7 @@ input[type=reset]:hover {
   }
 }
 
+
 .landingimg{
     padding-top: 35rem;
 	max-width: 100%;
@@ -398,6 +399,7 @@ input[type=reset]:hover {
 	background-attachment: fixed;
 }
 
+<<<<<<< HEAD
 .shoplist{
     margin-top: 5rem;
 	margin-bottom: 7rem;
@@ -409,6 +411,20 @@ input[type=reset]:hover {
 	padding-top: 2rem;
 	padding-right: 3rem;
 	padding-bottom: 5rem;
+=======
+.about-introduction {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/57451c424c2f85ae9b18f48d/1653676592228-KO25QHNG9RAV0DB9LKHC/facebook-link-image+2.jpeg?format=2500w);
+  /*https://images.squarespace-cdn.com/content/v1/57451c424c2f85ae9b18f48d/1653676592228-KO25QHNG9RAV0DB9LKHC/facebook-link-image+2.jpeg?format=2500w */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #37587A;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+
+>>>>>>> main
 }
 
 /*
