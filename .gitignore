@@ -1,2 +1,4 @@
-
-About
+*.jpg
+*.jpeg
+*.png
+.DS_Store
