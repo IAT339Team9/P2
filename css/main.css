@@ -390,14 +390,15 @@ input[type=reset]:hover {
   }
 }
 
-<<<<<<< Updated upstream
+
 .landingimg{
     padding-top: 35rem;
 	max-width: 100%;
 	background-image: url(https://images.unsplash.com/photo-1589244159943-460088ed5c92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1190&q=80.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-=======
+}
+
 .about-introduction {
   background-image: url(https://images.squarespace-cdn.com/content/v1/57451c424c2f85ae9b18f48d/1653676592228-KO25QHNG9RAV0DB9LKHC/facebook-link-image+2.jpeg?format=2500w);
   /*https://images.squarespace-cdn.com/content/v1/57451c424c2f85ae9b18f48d/1653676592228-KO25QHNG9RAV0DB9LKHC/facebook-link-image+2.jpeg?format=2500w */
@@ -409,7 +410,7 @@ input[type=reset]:hover {
   max-width: 100%;
   height: auto;
   text-align: center;
->>>>>>> Stashed changes
+
 }
 
 /*
