@@ -70,6 +70,10 @@ img {
   border-color: rgb(125, 125, 125);
 }
 
+.imgBox{
+    max-width: 100%;
+}
+
 section {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -457,7 +461,9 @@ input[type=reset]:hover {
   TEXT ELEMENTS -------------------
 */
 
-
+.about-text{
+	text-align: center;
+}
 
 
 /*
