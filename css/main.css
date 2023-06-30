@@ -473,7 +473,7 @@ input[type=reset]:hover {
 	padding-right: 2rem;
 	padding-bottom: 2rem;
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	color: rgb(255,255,255);
 	max-width: 40rem;
 	display: flex;
