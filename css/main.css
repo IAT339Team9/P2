@@ -428,9 +428,10 @@ input[type=reset]:hover {
 	padding-right: 3rem;
 	padding-bottom: 5rem;
 }
-.about-introduction {
-  background-image: url(https://images.squarespace-cdn.com/content/v1/57451c424c2f85ae9b18f48d/1653676592228-KO25QHNG9RAV0DB9LKHC/facebook-link-image+2.jpeg?format=2500w);
-  /*https://images.squarespace-cdn.com/content/v1/57451c424c2f85ae9b18f48d/1653676592228-KO25QHNG9RAV0DB9LKHC/facebook-link-image+2.jpeg?format=2500w */
+
+.about_introduction {
+  background-image: url(https://www.cgarchitect.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHc5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1febb60c5cd98e3d1791aac99090bc75f9cf520a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9VY21WemFYcGxYM1J2WDJ4cGJXbDBXd2RwQWxZRk1Eb0tjMkYyWlhKN0Jqb01jWFZoYkdsMGVXbGsiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--a140f81341e053a34b77dbf5e04e777cacb11aff/7803dd76.jpg);
+  /*https://www.cgarchitect.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHc5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1febb60c5cd98e3d1791aac99090bc75f9cf520a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9VY21WemFYcGxYM1J2WDJ4cGJXbDBXd2RwQWxZRk1Eb0tjMkYyWlhKN0Jqb01jWFZoYkdsMGVXbGsiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--a140f81341e053a34b77dbf5e04e777cacb11aff/7803dd76.jpg */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -439,8 +440,20 @@ input[type=reset]:hover {
   max-width: 100%;
   height: auto;
   text-align: center;
-
 }
+
+.introduction {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-align: center;
+}
+
+.introduction p {
+  font-size: 1.5rem;
+  margin: 1rem auto 3rem auto;
+  text-align: center;
+}
+
 
 .container_about{
     position: relative;
@@ -575,6 +588,20 @@ footer{
 }
 
 
+
+.about_store h2 {
+  color: rgb(221, 124, 145);
+  text-align: center;
+  padding: 2rem 0rem 2rem 0rem;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.about_store p {
+  text-align: center;
+  margin: 0rem auto 2rem auto;
+  line-height: 1.8rem;
+  font-size: 1rem;
+}
 
 
 
