@@ -489,13 +489,10 @@ footer{
 	margin: 1rem;
 	margin-top: 0;
 	margin-bottom: 2rem;
-<<<<<<< HEAD
-    min-width: 20px;
+
+  min-width: 20px;
 	max-width: 3%;
-=======
-  min-width: 10px;
-	max-width: 5%;
->>>>>>> main
+
 }
 
 /*
@@ -527,6 +524,7 @@ footer{
 
 .productInfo {
   text-align-last: center;
+  margin-left: 10rem;
 }
 
 .quantity-selection {
@@ -540,7 +538,7 @@ footer{
   border-radius: 0.75rem;
 }
 
-.labelName {
+.quantity_label_name {
   padding-left: 0.25rem;
   display: block;
   padding-bottom: 0.5rem;
