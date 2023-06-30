@@ -419,11 +419,38 @@ input[type=reset]:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #37587A;
+  color: #e69eb3;
   max-width: 100%;
   height: auto;
   text-align: center;
 
+}
+
+.container_about{
+    position: relative;
+	box-sizing: auto;
+	background: #f0c7d2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.container_about_content{
+    padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	width: 100%;
+	text-align: left;
+	color: rgb(255,255,255);
+	max-width: 40rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 /*
