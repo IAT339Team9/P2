@@ -473,6 +473,14 @@ footer{
 	background-color: #ffdad6;
   }
 
+.icon{
+	margin: 1rem;
+	margin-top: 0;
+	margin-bottom: 2rem;
+    //min-width: 20px;
+	//max-width: 3%;
+}
+
 /*
   TEXT ELEMENTS -------------------
 */
