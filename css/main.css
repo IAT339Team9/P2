@@ -103,6 +103,17 @@ code, samp {
   padding: 0.5rem;
 }
 
+table {
+  width: 100%;
+  padding: 0rem 10rem 4rem 10rem;
+}
+
+th, tr {
+    color: #ffffff;
+    
+}
+
+
 
 /*
   INTERACTIVE ELEMENTS -------------------
@@ -477,8 +488,8 @@ footer{
 	margin: 1rem;
 	margin-top: 0;
 	margin-bottom: 2rem;
-    //min-width: 20px;
-	//max-width: 3%;
+    min-width: 20px;
+	max-width: 3%;
 }
 
 /*
@@ -488,6 +499,80 @@ footer{
 .about-text{
 	text-align: center;
 }
+
+/*
+  PRODUCT INFO PAGE-------------------
+*/
+
+.two_colume_grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 1.3rem 1rem 1.3rem;
+}
+
+.gap {
+  padding-bottom: 0rem;
+}
+
+.productImg {
+  justify-self: center;
+}
+
+.productInfo {
+  text-align-last: center;
+}
+
+.quantity-selection {
+  padding: 0rem 1rem;
+}
+
+.quantity-selection-box {
+  height: 2.5rem;
+  width: 15rem;
+  border: 2px solid rgb(186, 58, 85);
+  border-radius: 0.75rem;
+}
+
+.labelName {
+  padding-left: 0.25rem;
+  display: block;
+  padding-bottom: 0.5rem;
+}
+
+.add-to-cart {
+  padding: 2rem 1rem 0rem 1rem
+}
+
+.product_detail_info {
+  background: rgb(221, 124, 145);
+  width: 100%;
+  margin: 0;
+}
+
+.product_detail_info_heading {
+  color: white;
+  margin: 0;
+  padding: 2rem 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.detailTitle {
+  color: white;
+  text-align: left;
+  padding: 1rem 5rem 1rem 10rem;
+ 
+}
+
+.detailInfo {
+  color: white;
+  text-align: left;
+  padding: 1rem 0rem 1rem 15rem;
+}
+
+
+
+
 
 
 /*
