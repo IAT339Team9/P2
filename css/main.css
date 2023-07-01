@@ -53,7 +53,6 @@ p, ol, ul {
   max-width: 55rem;
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
-  list-style: none;
 }
 
 .listing{
@@ -148,107 +147,9 @@ th, tr {
 	background-color: rgb(205,92,92);
 }
 
-.logo{
-	position: fixed;
-	z-index: 1020;
-	max-width: 15rem;
-	margin-left: 1rem;
-}
-
-.navbar{
-	display: flex;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	justify-content: space-between;
-	align-items: center;
-	background-color:  rgb(255,228,225);
-	z-index: 101;
-	border-radius: 2px;
-	box-shadow: 0px 1px 10px rgb(205,92,92);
-}
-
-
-.menubtn .bar{
-	height: 3px;
-	width: 100%;
-	background-color: white;
-	border-radius: 10px;
-}
-
-@media (max-width: 30rem) {
-	.main-button{
-		display: flex;
-	}
-	.menu{
-		display: none;
-		width: 100%;
-	}
-	.navbar{
-		flex-direction: column;
-		align-items: flex-start;
-	}
-	.menu ul{
-		flex-direction: column;
-		width: 100%;
-	}
-	.menu li{
-		text-align: center;
-	}
-	.menu li a{
-		padding: .5rem 1rem;
-	}
-	.menu.active{
-		display: flex;
-	}
-	.cbclogo{
-		max-width: 8rem;
-	}
-
-    .menu ul{
-	margin: 0;
-	padding: 0;
-	display: flex;
-
-}
-
-.menu li{
-	list-style: none;
-}	
-
-.menu li a{
-	text-decoration: none;
-	color: rgb(98, 143, 92);
-	padding: 1rem;
-	display: block;
-	margin-top: 4px;
-}
-
-.menu li a:hover,a:active,a:focus {
-	color:rgb(99, 129, 145);
-}
-
-.main{
-  position: relative;
-  left: 8%;
-  top: -20rem;
-  padding: 2rem;
-}
-
-#insert{
-  margin-top: 2rem;
-}
-
-.menupage h1{
-	margin-top: 7rem;
-}
-
 textarea{
 	height: 5rem;
 }
-
-
 
 .btn {
   background-color:rgb(205,92,92);
@@ -306,6 +207,67 @@ span.price {
   float: right;
   color: rgb(205,92,92);
 
+}
+
+.logo{
+	position: center;
+	z-index: 1020;
+	max-width: 4rem;
+	margin-left: 1rem;
+    margin-top: 1px;
+}
+
+.navbar{
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	justify-content: space-between;
+	align-items: center;
+	background-color:  rgb(255,228,225);
+	z-index: 101;
+	border-radius: 2px;
+	box-shadow: 0px 1px 10px rgb(248, 212, 208);
+}
+
+/* Code from "https://www.w3schools.com/css/css_navbar_horizontal.asp"*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255,228,225);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(205,92,92);
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(255,228,225);
+}
+
+.active {
+  background-color: rgb(248, 212, 208);
+}
+
+
+
+
+
+#products{
+	margin-left: 0%;
+	margin-right: 0;
 }
 
 .Cart-Summary-Guid {
