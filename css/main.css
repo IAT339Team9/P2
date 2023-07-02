@@ -231,7 +231,8 @@ span.price {
 	box-shadow: 0px 1px 10px rgb(248, 212, 208);
 }
 
-/* Code from "https://www.w3schools.com/css/css_navbar_horizontal.asp"*/
+/* Nav Bar Code from "https://www.w3schools.com/css/css_navbar_horizontal.asp"*/
+/* Dropdown Code form "https://www.w3schools.com/css/css_dropdowns.asp"*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -244,8 +245,8 @@ li {
   float: right;
 }
 
-li a {
-  display: block;
+li a, .dropbtn{
+  display: inline-block;
   color: rgb(205,92,92);
   text-align: center;
   padding: 14px 16px;
@@ -253,22 +254,41 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(255,228,225);
 }
 
-.active {
-  background-color: rgb(248, 212, 208);
+.li.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-
-
-
-
-#products{
-	margin-left: 0%;
-	margin-right: 0;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(255,228,225);
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%;
 }
+
+.dropdown-content a {
+  color: rgb(205,92,92);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(255,228,225)
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 .Cart-Summary-Guid {
   display: grid;
