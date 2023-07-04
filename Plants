@@ -35,33 +35,34 @@
       
     <body>
   
-        <section id="Bouquet">
-          <h3>Bouquet</h3>
-          <div class="nav-main grid three-column">
-            <div class="listing">
-                <img src="image/Bouquet.jpg" alt="Bouquet"</a>
-              <p>Bouquet</p>
-                <p>$40</p>
-                <a class="checkout_btn" aria-label="View Bouquet Product" href="productInfo.html">More Information</a>
-
-                </div>
+        <section id="plants">
+          <h1>Plants</h1>
+            <div class="nav-main grid three-column">
+              <div class="listing">
+  
+              <img src="image/Schefflera.JPG" alt="Schefflera" </a>
+              <p>Schefflera</p>
+              <p>$30</p>
+              <a class="checkout_btn" aria-label="View Schefflera Product" href="productInfo.html">More Information</a>
+              
+            </div>
   
               <div class="listing">
-                  <img src="image/Flower Basket.jpg" alt="Flower Basket"</a>
-                  <p>Flower Basket</p>
-                  <p>$50</p>
-                  <a class="checkout_btn" aria-label="View Flower Basket Product" href="productInfo.html">More Information</a>
-                  </div>
+                <img src="image/Chamaedorea elegans.jpeg" alt="Chamaedorea elegans"</a>
+                      <p>Chamaedorea elegans</p>
+                <p>$30</p>
+                <a class="checkout_btn" aria-label="View Chamaedorea elegans Product" href="productInfo.html">More Information</a>
+              
+              </div>
   
               <div class="listing">
-                  <img src="image/Flower Box.jpg" alt="Flower Box"</a>
-                <p>Flower Box</p>
-                  <p>$60</p>
-                  <a class="checkout_btn" aria-label="View Flower Box Product" href="productInfo.html">More Information</a>
-                  </div>
-                </div>
-                <hr>
-  
+                <img src="image/Asparagus nanus.jpg" alt="Asparagus nanus"</a>
+                      <p>Asparagus nanus</p>
+                <p>$20</p>
+                <a class="checkout_btn" aria-label="View Asparagus nanus Product" href="productInfo.html">More Information</a>
+              
+              </div>
+            </div>
         </section>
     </body>
 
