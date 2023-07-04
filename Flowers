@@ -37,7 +37,7 @@
         
   
         <section id="Flower">
-          <h1>Flowers</h1>
+          <br><br><br><h1>Flowers</h1>
           <div class="nav-main grid three-column">
             <div class="listing">
   
@@ -64,7 +64,7 @@
               
               </div>
             </div>
-            <hr>
+            
         </section>
 
     </body>
