@@ -549,8 +549,10 @@ input[type=reset]:hover {
 	padding-bottom: 5rem;
 }
 
+/* ABOUT PAGE */
+
 .about_introduction {
-  padding-top: 35rem;
+  padding-top: 30rem;
   background-image: url(https://www.cgarchitect.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHc5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1febb60c5cd98e3d1791aac99090bc75f9cf520a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9VY21WemFYcGxYM1J2WDJ4cGJXbDBXd2RwQWxZRk1Eb0tjMkYyWlhKN0Jqb01jWFZoYkdsMGVXbGsiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--a140f81341e053a34b77dbf5e04e777cacb11aff/7803dd76.jpg);
   /*https://www.cgarchitect.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHc5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1febb60c5cd98e3d1791aac99090bc75f9cf520a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9VY21WemFYcGxYM1J2WDJ4cGJXbDBXd2RwQWxZRk1Eb0tjMkYyWlhKN0Jqb01jWFZoYkdsMGVXbGsiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--a140f81341e053a34b77dbf5e04e777cacb11aff/7803dd76.jpg */
   background-attachment: fixed;
@@ -561,23 +563,58 @@ input[type=reset]:hover {
   max-width: 100%;
   height: auto;
   text-align: center;
+  object-fit:cover;
 }
 
 .introduction {
-  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0rem -.3rem -.3rem -.3rem;
+  position: relative;
+  align-self:  stretch;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   text-align: center;
 }
 
+.introduction h1{
+  font-family: 'Amita', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
 .introduction p {
-  font-size: 1.5rem;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.2rem;
   margin: 1rem auto 3rem auto;
   text-align: center;
 }
 
+.about_store h2 {
+  color: rgb(221, 124, 145);
+  text-align: center;
+  padding: 2rem 0rem 2rem 0rem;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.about_store p {
+  text-align: center;
+  margin: 0rem auto 2rem auto;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+}
+
+.newsletter{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: -2rem;
+}
+
+.newsletter h2{
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.2rem;
+}
 
 .container_about{
-    position: relative;
+  position: relative;
 	box-sizing: auto;
 	background: #ffdad6;
 	display: flex;
@@ -602,6 +639,8 @@ input[type=reset]:hover {
 	justify-content: center;
 	flex-direction: column;
 }
+
+/* FOOTER */
 
 .footer-content{
 	display: flex;
@@ -709,20 +748,6 @@ footer{
 }
 
 
-
-.about_store h2 {
-  color: rgb(221, 124, 145);
-  text-align: center;
-  padding: 2rem 0rem 2rem 0rem;
-  margin: 1rem 0rem 1rem 0rem;
-}
-
-.about_store p {
-  text-align: center;
-  margin: 0rem auto 2rem auto;
-  line-height: 1.8rem;
-  font-size: 1rem;
-}
 
 
 
