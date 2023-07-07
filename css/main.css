@@ -428,7 +428,9 @@ li.dropdown {
  left:22px;
 }
 
-/* confirm page */
+/* 
+  CONFIRM PAGE -----------------
+*/
 .confirmation{
 	padding-top: 5rem;
 	padding-bottom: 3rem;
@@ -549,7 +551,9 @@ input[type=reset]:hover {
 	padding-bottom: 5rem;
 }
 
-/* ABOUT PAGE */
+/* 
+  ABOUT PAGE -------------------
+*/
 
 .about_introduction {
   padding-top: 30rem;
@@ -640,7 +644,9 @@ input[type=reset]:hover {
 	flex-direction: column;
 }
 
-/* FOOTER */
+/* 
+  FOOTER -------------------
+*/
 
 .footer-content{
 	display: flex;
@@ -656,7 +662,7 @@ input[type=reset]:hover {
 footer{
 	display: span;
 	background-color: #ffdad6;
-  }
+}
 
 .icon{
 	margin: 1rem;
@@ -700,8 +706,14 @@ footer{
   margin-left: 10rem;
 }
 
+.productInfo p {
+  text-align-last: center;
+  font-size: 1.1rem;
+  
+}
+
 .quantity-selection {
-  padding: 0rem 1rem;
+  margin: auto auto 1rem -.3rem;
 }
 
 .quantity-selection-box {
@@ -712,13 +724,14 @@ footer{
 }
 
 .quantity_label_name {
-  padding-left: 0.25rem;
+  font-size: 1.05rem;
   display: block;
   padding-bottom: 0.5rem;
 }
 
 .add-to-cart {
-  padding: 2rem 1rem 0rem 1rem
+  margin: auto auto auto -11.5rem;
+  width: 38rem;
 }
 
 .product_detail_info {
