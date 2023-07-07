@@ -429,6 +429,47 @@ li.dropdown {
  left:22px;
 }
 
+/* confirm page */
+.confirmation{
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.confirmation h1{
+	font-size: 2.5rem;
+	text-align: center;
+	color:rgb(205,92,92);
+}
+
+.confirmation img{
+	display: block;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 10%;
+}
+
+.confirmation h2{
+	font-family: "Louis George Cafe", Verdana, sans-serif;
+	text-align: center;
+	font-size: 1.2rem;
+	color:black;
+}
+
+
+.confirmation .btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 /* Code from https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
