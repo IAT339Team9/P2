@@ -19,6 +19,8 @@
 
         <nav class="navbar">
 			
+		<nav class="navbar">
+			
 		<div class="logo">
 			<a href="Homepage.html">
 			<img src="image/logo.png" alt="logo"></a>
@@ -26,9 +28,18 @@
 
             <ul>    
                 <li><a href="Cart.html">Cart</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="About.html">About</a></li>          
+                <li class="dropdown">
+                    <a href="products.html" class="dropbtn">Products</a>
+                    <div class="dropdown-content">
+                        <a href="Bouquets.html">Bouquets</a>
+                        <a href="Flowers.html">Flowers</a>
+                        <a href="Plants.html">Plants</a>
+                    </div>
+                </li>
+                <li><a href="About.html">About</a></li>
             </ul>
+            
+
 	   </nav>
 
      </header>
@@ -44,7 +55,7 @@
               <img src="image/Anthurium.png" alt="Anthurium"</a>
               <p>Anthurium</p>
               <p>$25</p>
-              <a class="checkout_btn" aria-label="View Anthurium Product" href="productInfo.html">More Information</a>
+              <a class="btn" aria-label="View Anthurium Product" href="productInfo.html">More Information</a>
                   
             </div>
   
@@ -52,7 +63,7 @@
                 <img src="image/Orchid.jpg" alt="Orchid"</a>
                         <p>Orchid</p>
                 <p>$35</p>
-                <a class="checkout_btn" aria-label="View Orchid Product" href="orchid.html">More Information</a>
+                <a class="btn" aria-label="View Orchid Product" href="orchid.html">More Information</a>
               
               </div>
   
@@ -60,7 +71,7 @@
                 <img src="image/Bromeliad.jpg" alt="Bromeliad"</a>
                       <p>Bromeliad</p>
                 <p>$40</p>
-                <a class="checkout_btn" aria-label="View Bromeliad Product" href="bromeliad.html">More Information</a>
+                <a class="btn" aria-label="View Bromeliad Product" href="bromeliad.html">More Information</a>
               
               </div>
             </div>
