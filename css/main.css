@@ -260,7 +260,7 @@ li a, .dropbtn{
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(255,228,225);
+  background-color: rgb(255, 228, 225);
 }
 
 li.dropdown {
@@ -271,8 +271,8 @@ li.dropdown {
   display: none;
   position: absolute;
   background-color: rgb(255,228,225);
-  min-width: 120px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 120x;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -285,7 +285,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: rgb(255,228,225)
+  background-color: rgb(253, 204, 198);
 }
 
 .dropdown:hover .dropdown-content {
@@ -513,6 +513,9 @@ input[type=reset] {
 input[type=reset]:hover {
   background-color: rgb(150, 140, 142);
 }
+
+
+
 
 
 
