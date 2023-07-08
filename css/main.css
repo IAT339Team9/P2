@@ -309,7 +309,7 @@ li.dropdown {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  border-bottom: 0.15rem solid #ecf2ff;
+  border-bottom: 0.15rem solid #ff8888;
   margin: 1rem 4rem 1rem 4rem;
 }
 
@@ -319,7 +319,7 @@ li.dropdown {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  border-bottom: 0.15rem solid #ecf2ff;
+  border-bottom: 0.15rem solid #ff8888;
   margin: 1rem 4rem 0rem 4rem;
 }
 
@@ -374,7 +374,7 @@ li.dropdown {
   grid-template-rows: 1fr 1fr 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  border-bottom: 0.15rem solid #ecf2ff;
+  border-bottom: 0.15rem solid #ff8888;
   margin: 0rem 4rem 0rem 4rem;
 }
 
@@ -788,7 +788,7 @@ footer{
 }
 
 .product_detail_info {
-  background: rgb(221, 124, 145);
+  background: rgb(248, 187, 200);
   width: 100%;
   margin: 0;
 }
@@ -812,6 +812,86 @@ footer{
   text-align: left;
   padding: 1rem 0rem 1rem 15rem;
 }
+
+.user_reviews_h2 {
+  margin: 5rem auto -1rem auto;
+  text-align: center;
+}
+
+.user_review {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+	margin: 3rem auto auto auto;
+	padding: 2rem;
+	border-width: 5px;
+	border-style: double;
+	border-color: rgb(248, 187, 200);
+}
+
+
+.user_img{
+	border-radius: 0.5rem;
+  margin: -1rem auto -1rem auto;
+	min-width: 200px;
+	max-width: 15%;
+	height: auto;
+}
+
+.review_section{
+margin-top: auto;
+}
+
+.user_review_section {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-items: center;
+	z-index: 1;
+  margin: -7rem auto -13rem auto;
+}
+
+.user_review_content{
+	width: 100%;
+	height: auto;
+	flex: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.user_review_content h2{
+  margin-bottom: 2rem;
+}
+
+.user_review_content form{
+	width:60vw;
+}
+
+.user_review_content_input {
+	width: 100%;
+	height: 2.5rem;
+	color: #222831;
+	border: 0.07rem solid rgb(248, 187, 200);
+	border-radius: 0.7rem;
+	outline: none;
+	margin-bottom: 1.25rem;
+	padding: 1rem;
+}
+
+.user_review_content textarea {
+	width: 100%;
+	height: 8.125rem;
+	color: #222831;
+	border: 0.07rem solid rgb(248, 187, 200);
+	border-radius: 0.625rem;
+	outline: none;
+	margin-bottom: 1.25rem;
+	padding: 1rem;
+}
+
+
 
 
 /*
