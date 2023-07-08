@@ -348,14 +348,13 @@
 }
 
 @media (min-width:50.25rem) {
-    .introduction a h1{
+    .introduction  h1{
         font-size: 3.5rem;
         padding: 1rem 10rem 1.5rem 10rem;
     }
 
     .introduction p{
         font-size: 1.2rem;
-        margin: 0rem 2rem 3rem 2rem
     }
 
     .about_store p{
