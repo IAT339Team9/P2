@@ -651,6 +651,8 @@ input[type=reset]:hover {
   font-family: 'Comfortaa', cursive;
   font-size: 1.2rem;
   margin: 1rem auto 3rem auto;
+  padding-right: 0px;
+  padding-left: 0px;
   text-align: center;
 }
 
