@@ -55,9 +55,7 @@ p, ol, ul {
 }
 
 .listing{
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding-left: 1rem;
+ margin:auto;
   text-align: center;
 }
 
@@ -684,8 +682,8 @@ input[type=reset]:hover {
 }
 
 .container_about_content{
-    padding-left: 2rem;
-	padding-right: 2rem;
+  padding-left: 2rem;
+	padding-right: auto;
 	padding-bottom: 2rem;
 	width: 100%;
 	text-align: center;
@@ -730,7 +728,13 @@ footer{
 
   min-width: 20px;
 	max-width: 3%;
+}
 
+.footer_two_colume_grid{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin: auto auto 0rem auto;
 }
 
 /*
