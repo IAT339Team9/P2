@@ -156,6 +156,10 @@
         font-size: 0.90rem;
     }
 
+    .cart_two_colume_grid {
+        display: inline;
+    }
+
     .footer-content p {
         max-width: 31.25rem;
         margin: 0.5rem auto;
@@ -178,6 +182,41 @@
         margin: 4rem;
         grid-row-gap: 6rem;
     }
+
+    .Grid-Summary {
+        display: none;
+    }
+    .Cart-Summary1-Grid {
+        display: inline-block;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+    .Subtotal-Grid,
+    .Total-Grid {
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    .Product-Detail-div img {
+        margin: 0rem;
+    }
+
+    .Price-Detail-div,
+    .Quantity-Detail-div,
+    .Total-Detail-div {
+        display: none;
+    }
+
+    .Subtotal-Text-div {
+        grid-area: 1 / 1 / 2 / 6;
+    }
+    .Shipping-Fee-Text-div {
+        grid-area: 2 / 1 / 3 / 6;
+    }
+    .Tax-Text-div {
+        grid-area: 3 / 1 / 4 / 6;
+    }
+    .Total-Text-div {
+        grid-area: 1 / 1 / 2 / 6;
+    }
 }
 
 @media(min-width:23.438rem) {
@@ -197,6 +236,8 @@
     }
 }
 
+/* 425 px */
+
 @media (min-width:26.875rem) {
     .introduction h1{
         font-size: 3rem;
@@ -210,6 +251,10 @@
     p,
     .about_store p{
         font-size: 1rem;
+    }
+
+    .Product-Detail-div img {
+        margin: 0rem 0rem 0rem 2rem;
     }
 }
 
@@ -274,6 +319,30 @@
     .grid.three-column {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .Cart-Summary1-Grid {
+        display: inline-flex;
+        margin: 1rem 4rem 1rem 4rem;
+        align-items: center;
+    }
+
+    .Subtotal-Grid,
+    .Total-Grid {
+        margin: 1rem 4rem 1rem 4rem;
+    }
+
+    .Product-Detail-div {
+        text-align-last: center;
+    }
+
+    .Product-Detail-div img {
+        margin-left: 2rem;
+        margin-top: 0rem;
+    }
+
+    .Product-info-div  {
+        margin: 0rem 0rem 0rem 5rem;
+    }
 }
 
 @media (min-width:50.25rem) {
@@ -324,6 +393,53 @@
         width: 100%;
         border-radius: 3rem;
     }
+
+    .Cart-Summary1-Grid {
+        display: grid;
+        margin: 1rem 4rem 2rem 4rem;
+        align-items: initial;
+    }
+
+    Product-Detail-div img{
+        margin-left: 0rem;
+        margin-top: -1.5rem;
+    }
+
+    .Product-info-div  {
+        margin: 0rem 0rem 0rem 4rem;
+    }
+
+    .Price-Detail-div,
+    .Quantity-Detail-div,
+    .Total-Detail-div {
+        display: inline-block;
+    }
+
+    Subtotal-Grid,
+    .Total-Grid {
+        margin: 1rem 4rem 1rem 4rem;
+    }
+
+    .Subtotal-Text-div {
+        grid-area: 1 / 5 / 2 / 6;
+    }
+    .Shipping-Fee-Text-div {
+        grid-area: 2 / 5 / 3 / 6;
+    }
+    .Tax-Text-div {
+        grid-area: 3 / 5 / 4 / 6;
+    }
+    Total-Text-div{
+        grid-area: 1 / 5 / 2 / 6;
+    }
+    .Total-Price-div {
+        grid-area: 1 / 6 / 2 / 7;
+    }
+
+    .cart_two_colume_grid {
+        display: grid;
+    }
+
 }
 
 @media (min-width:67.4rem) {
@@ -348,6 +464,48 @@
 
     .listing{
         width: 100%;
+    }
+
+    .Subtotal-Grid,
+    .Total-Grid {
+        margin: 1rem 4rem 1rem 4rem;
+    }
+    .Grid-NavigationButton {
+        display: grid;
+    }
+    .Grid-Summary {
+        display: grid;
+    }
+
+    Product-Detail-div img{
+        margin-left: 2rem;
+        margin-top: -2rem;
+    }
+
+    .Price-Detail-div,
+    .Quantity-Detail-div,
+    .Total-Detail-div {
+        display: inline-block;
+    }
+
+    .Subtotal-Text-div {
+        grid-area: 1 / 5 / 2 / 6;
+    }
+    .Shipping-Fee-Text-div {
+        grid-area: 2 / 5 / 3 / 6;
+    }
+    .Tax-Text-div {
+        grid-area: 3 / 5 / 4 / 6;
+    }
+    Total-Text-div{
+        grid-area: 1 / 5 / 2 / 6;
+    }
+    .Total-Price-div {
+        grid-area: 1 / 6 / 2 / 7;
+    }
+
+    .cart_two_colume_grid {
+        display: grid;
     }
 }
 
