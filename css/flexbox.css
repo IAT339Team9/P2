@@ -169,6 +169,15 @@
     .btn{
         font-size: 0.90rem;
     }
+
+    .grid.three-column{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        margin: 4rem;
+        grid-row-gap: 6rem;
+    }
 }
 
 @media(min-width:23.438rem) {
@@ -238,6 +247,17 @@
     .footer-content p,
     .introduction p{
         font-size: 1rem;
+    }
+}
+
+@media (min-width:34.25rem) {
+    .grid.three-column {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        margin: 4rem;
+        grid-row-gap: 6rem;
     }
 }
 
@@ -317,7 +337,14 @@
         padding: 1rem 15rem 2rem 15rem;
     }
 
-    
+    .grid.three-column{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        margin: 4rem;
+        grid-row-gap: 6rem;
+    }
 
     .listing{
         width: 100%;
