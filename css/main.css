@@ -728,7 +728,13 @@ footer{
 
   min-width: 20px;
 	max-width: 3%;
+}
 
+.footer_two_colume_grid{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin: auto auto 0rem auto;
 }
 
 /*
