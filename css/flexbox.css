@@ -15,7 +15,6 @@
 }
 
 /* Codes from https://www.w3schools.com/howto/howto_css_two_columns.asp*/
-/*520px 32.5rem*/
 @media (min-width: 32.5rem) {
     .grid.two-column {
         grid-template-columns: 1fr 1fr;
@@ -45,6 +44,7 @@
 
     }
 }
+
 
 
 
