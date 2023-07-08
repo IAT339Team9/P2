@@ -67,6 +67,19 @@ img {
   border-color: rgb(125, 125, 125);
 }
 
+.img_interact {
+  opacity: 1;
+  height: auto;
+  width: 100%;
+
+}
+
+.img_interact:hover, .img_interact:focus {
+	
+  transform: scale(1.04); 
+}
+
+
 .imgBox{
     max-width: 100%;
 }
