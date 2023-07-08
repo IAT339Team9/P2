@@ -219,6 +219,10 @@
     .Total-Text-div {
         grid-area: 1 / 1 / 2 / 6;
     }
+
+    .footer_two_colume_grid {
+    display: inline;
+}
 }
 
 @media(min-width:23.438rem) {
@@ -510,6 +514,10 @@
     .cart_two_colume_grid {
         display: grid;
     }
+
+    .footer_two_colume_grid {
+    display: grid;
+}
 }
 
 
