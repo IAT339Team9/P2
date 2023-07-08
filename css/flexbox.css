@@ -143,7 +143,7 @@
         font-size: 2rem;
     }
 
-    h2{
+    h2, footer-content h1{
         font-size: 1.5rem;
     }
 
@@ -174,12 +174,11 @@
 }
 
 @media (min-width:26.875rem) {
-    h1,
     .introduction h1{
         font-size: 3rem;
     }
 
-    h2{
+    h1, h2{
         font-size: 2rem;
     }
 
@@ -192,6 +191,17 @@
     table {
         padding: 0rem 3rem 4rem 3rem;
     }
+
+    .footer-content h1 {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+    .footer-content p {
+        max-width: 31.25rem;
+        margin: 0.625rem auto;
+        line-height: 1.75rem;
+        font-size: 0.875rem;
+    }
 }
 
 @media(min-width:30rem) {
@@ -201,7 +211,8 @@
 }
 
 @media (min-width:31.25rem) {
-    p{
+    p,
+    .footer-content p{
         font-size: 1rem;
     }
 }
@@ -236,6 +247,10 @@
 /* 1024 px */
 
 @media (min-width:64rem) {
+    p{
+        font-size: 1.2rem;
+    }
+    
     .detailImg {
         text-align: center;
         padding: 3rem;
@@ -259,7 +274,7 @@
     }
 
     .listing{
-        width: 70%;
+        width: 100%;
     }
 }
 
