@@ -402,7 +402,7 @@
         align-items: initial;
     }
 
-    Product-Detail-div img{
+    .Product-Detail-div img{
         margin-left: 0rem;
         margin-top: -1.5rem;
     }
@@ -417,7 +417,7 @@
         display: inline-block;
     }
 
-    Subtotal-Grid,
+    .Subtotal-Grid,
     .Total-Grid {
         margin: 1rem 4rem 1rem 4rem;
     }
@@ -431,7 +431,7 @@
     .Tax-Text-div {
         grid-area: 3 / 5 / 4 / 6;
     }
-    Total-Text-div{
+    .Total-Text-div{
         grid-area: 1 / 5 / 2 / 6;
     }
     .Total-Price-div {
@@ -450,9 +450,15 @@
         padding: 0rem 10rem 4rem 10rem;
     }
 
-    .introduction a h1{
+    .introduction h1{
         font-size: 4rem;
         padding: 1rem 15rem 2rem 15rem;
+    }
+
+    .introduction p{
+        font-size: 1.2rem;
+        padding:auto;
+        text-align: center;
     }
 
     .grid.three-column{
@@ -480,7 +486,7 @@
         display: grid;
     }
 
-    Product-Detail-div img{
+    .Product-Detail-div img{
         margin-left: 2rem;
         margin-top: -2rem;
     }
@@ -500,7 +506,7 @@
     .Tax-Text-div {
         grid-area: 3 / 5 / 4 / 6;
     }
-    Total-Text-div{
+    .Total-Text-div{
         grid-area: 1 / 5 / 2 / 6;
     }
     .Total-Price-div {
