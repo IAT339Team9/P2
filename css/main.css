@@ -84,6 +84,14 @@ figure {
   margin: 0;
 }
 
+.item {
+  margin: 0;
+  transition-duration: 0.5s;
+}
+
+.item:hover{
+  opacity: 60%;
+}
 
 code, samp {
   display: block;
