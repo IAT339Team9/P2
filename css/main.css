@@ -739,13 +739,13 @@ footer{
 
 
 .footer_nav {
-  margin: -1rem auto 0rem auto;
+  margin: -1rem auto 1rem auto;
   align-self: start;
   text-align: center;
 }
 
 .footer_nav a{
-  margin: -1rem auto auto auto;
+  margin: -2rem auto auto auto;
   text-align: center;
   color: rgb(205,92,92);
   font-size: 1.2rem;
@@ -760,6 +760,7 @@ footer{
   color: #000;
   font-size: 1.5rem;
   text-align: center;
+  margin-bottom: .5rem;
 }
 
 /*
