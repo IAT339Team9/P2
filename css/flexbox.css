@@ -129,3 +129,140 @@
   .icon{
   flex: 1;
 }
+
+/* 320px */
+
+@media (min-width:20rem) {
+    table {
+        width: 100%;
+        padding: 0rem 1rem 4rem 1rem;
+    }
+
+    h1,
+    .introduction h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 0.90rem;
+    }
+
+    .btn{
+        font-size: 0.90rem;
+    }
+}
+
+@media(min-width:23.438rem) {
+    .grid.three-column{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-row-gap: 3rem;
+        margin: 2rem;
+        margin-top: 4.3rem;
+    }
+
+    .listing{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 1rem;
+        text-align: center;
+    }
+}
+
+@media (min-width:26.875rem) {
+    h1,
+    .introduction h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:28.75rem) {
+    table {
+        padding: 0rem 3rem 4rem 3rem;
+    }
+}
+
+@media(min-width:30rem) {
+    .container_about grid two-column img {
+        width: 100%;
+    }
+}
+
+@media (min-width:31.25rem) {
+    p{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:43.75rem) {
+    .grid.three-column {
+        grid-row-gap: 4rem;
+        margin: 4rem;
+    }
+}
+
+/* Tablet */
+
+@media (min-width:48rem) {
+    .grid.three-column {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:50.25rem) {
+    .introduction a h1{
+        font-size: 3.5rem;
+        padding: 1rem 10rem 1.5rem 10rem;
+    }
+
+    .imgBox{
+        justify-self: center;
+        text-align: center;
+    }
+}
+
+/* 1024 px */
+
+@media (min-width:64rem) {
+    .detailImg {
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .container_about grid two-column img {
+        width: 100%;
+        border-radius: 3rem;
+    }
+}
+
+@media (min-width:67.4rem) {
+    table {
+        width: 100%;
+        padding: 0rem 10rem 4rem 10rem;
+    }
+
+    .introduction a h1{
+        font-size: 4rem;
+        padding: 1rem 15rem 2rem 15rem;
+    }
+
+    .listing{
+        width: 70%;
+    }
+}
+
+
+
+
