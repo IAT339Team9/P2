@@ -183,13 +183,15 @@
         grid-row-gap: 6rem;
     }
 
-    .Grid-Summary {
+    .Cart-Summary-Guid {
         display: none;
     }
+
     .Cart-Summary1-Grid {
         display: inline-block;
         margin: 1rem 2rem 1rem 2rem;
     }
+
     .Subtotal-Grid,
     .Total-Grid {
         margin: 1rem 2rem 1rem 2rem;
@@ -473,7 +475,8 @@
     .Grid-NavigationButton {
         display: grid;
     }
-    .Grid-Summary {
+
+    .Cart-Summary-Guid {
         display: grid;
     }
 
