@@ -636,8 +636,6 @@ input[type=reset]:hover {
 
 .introduction {
   margin: 0rem -.3rem -.3rem -.3rem;
-  position: relative;
-  align-self:  stretch;
   background-color: rgba(241, 241, 241, 0.425);
   color: rgb(0, 0, 0);
   text-align: center;
@@ -654,6 +652,7 @@ input[type=reset]:hover {
   font-size: 1.2rem;
   margin: 1rem auto 3rem auto;
   text-align: center;
+  padding-left: 15rem;
 }
 
 .about_store h2 {
