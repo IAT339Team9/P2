@@ -359,7 +359,7 @@
 
     .introduction p{
         font-size: 1.2rem;
-        margin: 0rem 2rem 3rem 2rem
+        padding: 1rem 10rem 8rem 10rem;
     }
 
     .about_store p{
@@ -476,6 +476,10 @@
 
     .listing{
         width: 100%;
+    }
+
+    .introduction p{
+        padding: 1rem 15rem 8rem 15rem;
     }
 
     .Subtotal-Grid,
