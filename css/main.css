@@ -291,6 +291,9 @@ li.dropdown {
   display: block;
 }
 
+/*
+  CART PAGE ---------------
+*/
 
 .Cart-Summary-Guid {
   display: grid;
@@ -309,7 +312,7 @@ li.dropdown {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   border-bottom: 0.15rem solid #ecf2ff;
-  margin: 1rem 4rem 1rem 4rem;
+  margin: 1rem 4rem 0rem 4rem;
 }
 
 .Product-div {
@@ -334,15 +337,13 @@ li.dropdown {
 }
 
 .Product-Detail-div img {
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-top: -1rem;
-  margin-bottom: 1rem;
-
 }
 
 .Product-info-div {
   grid-area: 1/2/2/4;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .Price-Detail-div {
@@ -366,19 +367,35 @@ li.dropdown {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   border-bottom: 0.15rem solid #ecf2ff;
-  margin: 1rem 4rem 1rem 4rem;
+  margin: 0rem 4rem 0rem 4rem;
 }
 
 .Subtotal-Text-div {
   grid-area: 1 / 5 / 2 / 6;
 }
 
+.Subtotal-Text-div p{
+  position: relative;
+  left:10px;
+}
+
+
 .Shipping-Fee-Text-div {
   grid-area: 2 / 5 / 3 / 6;
 }
 
+.Shipping-Fee-Text-div p{
+  position: relative;
+ left:10px;
+}
+
 .Tax-Text-div {
   grid-area: 3 / 5 / 4 / 6;
+}
+
+.Tax-Text-div p{
+  position: relative;
+ left:10px;
 }
 
 .Subtotal-Price-div {
@@ -395,16 +412,17 @@ li.dropdown {
 
 .Subtotal-Price-div p{
   position: relative;
- left:22px;
+ left:50px;
 }
 
 .Shipping-Price-div p{
   position: relative;
- left:22px;
+  left:50px;
 }
+
 .Tax-Price-div p{
   position: relative;
- left:22px;
+  left:50px;
 }
 
 .Total-Grid {
@@ -413,19 +431,42 @@ li.dropdown {
   grid-template-rows: 1fr 1fr 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  margin: .5rem 4rem -10rem 4rem;
+  margin: 0rem 4rem -10rem 4rem;
 }
 
 .Total-Text-div {
   grid-area: 1 / 5 / 2 / 6;
 }
+
+.Total-Text-div p{
+  position: relative;
+ left:10px;
+}
+
 .Total-Price-div {
   grid-area: 1 / 6 / 2 / 7;
 }
 
 .Total-Price-div p{
   position: relative;
- left:22px;
+  left: 50px;
+}
+
+.cart_two_colume_grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin: -3rem auto 0rem auto;
+}
+
+.button_continue{
+  text-align: center;
+  margin: -3rem auto auto auto;
+}
+
+.button_continue p{
+  font-size: 1rem;
+  margin: auto auto -.5rem auto;
 }
 
 /* 
@@ -522,6 +563,7 @@ input[type=reset]:hover {
 
 
 /* Responsive layout */
+
 @media (max-width: 800px) {
   .row {
     flex-direction: column-reverse;
@@ -764,10 +806,19 @@ footer{
 }
 
 
-
-
-
-
 /*
-  COMBINED ELEMENTS -------------------
+  CHECKOUT PAGE -------------------
 */
+
+.checkout_two_colume_grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 3rem auto -1rem auto;
+}
+
+.checkout_button_continue{
+  text-align: center;
+  margin: auto auto auto auto;
+}
+
