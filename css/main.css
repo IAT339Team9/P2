@@ -783,32 +783,32 @@ footer{
 }
 
 .add-to-cart {
-  margin: auto auto auto -11.5rem;
+  margin: auto auto auto auto;
   width: 38rem;
 }
 
 .product_detail_info {
-  background: rgb(248, 187, 200);
+  background: #ffdad6;
   width: 100%;
   margin: 0;
 }
 
 .product_detail_info_heading {
-  color: white;
+  color: rgb(186, 58, 85);
   margin: 0;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 3rem 1rem 2rem 1rem;
   text-align: center;
 }
 
 .detailTitle {
-  color: white;
+  color: rgb(186, 58, 85);
   text-align: left;
   padding: 1rem 5rem 1rem 10rem;
  
 }
 
 .detailInfo {
-  color: white;
+  color: black;
   text-align: left;
   padding: 1rem 0rem 1rem 15rem;
 }
