@@ -578,7 +578,7 @@ input[type=reset]:hover {
     padding-top: 35rem;
 	max-width: 100%;
 	background-image: url(https://images.unsplash.com/photo-1589244159943-460088ed5c92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1190&q=80.jpg);
-	background-size: cover;
+    background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -619,7 +619,7 @@ input[type=reset]:hover {
   margin: 0rem -.3rem -.3rem -.3rem;
   position: relative;
   align-self:  stretch;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(241, 241, 241, 0.425);
   color: white;
   text-align: center;
 }
