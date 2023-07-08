@@ -628,7 +628,7 @@ input[type=reset]:hover {
   position: relative;
   align-self:  stretch;
   background-color: rgba(241, 241, 241, 0.425);
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
